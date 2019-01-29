@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "GothamHTF-Book";
+  src: local("GothamHTF-Book"), url("../fonts/GothamHTF-Book.woff") format("woff");
+}
+
+@media screen and (max-width: 576px) {
+  .d-name {
+    font-size: 28px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    font-family: "GothamHTF-Book";
+  }
+  .d-title {
+    font-size: 18px;
+    font-family: "GothamHTF-Book";
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .d-name {
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    font-family: "GothamHTF-Book";
+  }
+  .d-title {
+    font-size: 20px;
+    font-family: "GothamHTF-Book";
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .d-name {
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    font-family: "GothamHTF-Book";
+  }
+  .d-title {
+    font-size: 23px;
+    font-family: "GothamHTF-Book";
+  }
+}
+
+.d-header {
+  color: #2d3c49;
+}
+
+.d-hr {
+  display: block;
+  position: relative;
+  height: 0;
+  width: 100%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  border: none;
+  border-top: 5px solid #7d97ad;
+  border-bottom: 5px solid #ffffff;
+}
+
+.d-responsive-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.d-header1 {
+  color: #7d97ad;
+  font-family: "GothamHTF-Book";
+}
+
+.d-card {
+  width: 18rem;
+  border: none !important;
+}
+
+.d-header2 {
+  color: #2d3c49;
+  font-family: "GothamHTF-Book";
+}
+
+.d-footer {
+  font-size: 20px;
+}
