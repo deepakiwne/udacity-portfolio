@@ -1,5 +1,9 @@
 # Portfolio
 
-The project contains my portfolio to showcase my front end development works. The webpage is fully responsive across all devices. It is developed using HTML, CSS, JavaScript, bootstrap and font-awesome.
+The project contains my portfolio to showcase my front end development works.
 
-![game_screenshot](images/screenshot.png)
+## Technology Used
+
+The portfolio is developed using HTML, CSS, JavaScript. It uses `bootstrap` and its responsive design is fit for all modern desktop, tablet, and phone browsers.
+
+![screenshot](images/screenshot.png)
